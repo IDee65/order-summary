@@ -1,0 +1,126 @@
+* {box-sizing: border-box}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: "Red Hat Display", Arial;
+}
+
+.main-container {
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.banner-container {
+    background: url("../images/pattern-background-desktop.svg") no-repeat;
+    width: 100%;
+    padding: 70px;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.sub-container {
+    width: 70%;
+    margin: auto;
+    padding: 2px;
+    text-align: center;
+}
+
+@media screen and (max-width: 415px) {
+    .sub-container {
+        width: 100%;
+        font-size: 0.5rem;
+    }
+
+    button {
+        width: 70%;
+        padding: 10px;
+        margin: 15px auto;
+    }
+
+    .mid-container {
+        padding: 12px;
+        margin: auto;
+    }
+}
+
+.body-text {
+    line-height: 140%;
+}
+
+.mid-container {
+    display: flex;
+    padding: 24px;
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.first-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.annual {
+    margin-left: 10px;
+    margin-top: -18px;
+}
+
+.annual p {
+    margin-bottom: 2px;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual span {
+    color: hsl(224, 23%, 55%);
+}
+
+.change-link {
+    color: hsl(245, 75%, 52%);
+}
+
+button {
+    width: 100%;
+    color: aliceblue;
+    padding: 15px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 700;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+}
+
+a {
+    font-weight: 700;
+}
+
+a:hover, button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.cancel-link {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
